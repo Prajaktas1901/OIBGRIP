@@ -1,0 +1,115 @@
+@import url(//fonts.googleapis.com/css2?family=PT+Serif&display=swap);
+body {
+    background-image: url("");
+    align-items: center;
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    text-align: center;
+    color: hsl(31, 50%, 50%);
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #804400
+}
+
+h2 {
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin: auto;
+    max-width: 65%;
+}
+
+@media (max-width: 63em) {
+    h2 {
+        margin: 0 auto;
+        font-size: 25px;
+    }
+}
+
+ul {
+    text-align: left !important;
+    font-family: 'PT Serif', serif;
+    list-style-type: none;
+    font-size: 18px;
+    width: 70vmin;
+    line-height: 2;
+    padding: 2em 2em 2em 3em;
+    box-shadow: 0 10px 20px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+@media (min-width: 63em) {
+    ul {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 1.5em 2em;
+        line-height: 1.5;
+        font-size: 22px;
+        max-width: 100%;
+        width: auto;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 10px;
+    }
+}
+
+p {
+    text-align: right;
+    font-size: 16px;
+    font-family: 'PT Serif', serif;
+    margin-bottom: 30px;
+    max-width: 100%;
+    line-height: 2;
+}
+
+@media (min-width: 63em) {
+    p {
+        font-size: 19px;
+        line-height: 1.5;
+    }
+}
+
+#img-div {
+    width: auto;
+}
+
+#image {
+    display: block;
+    box-shadow: 0 10px 20px;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+#img-caption {
+    margin-top: 1em;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    max-width: 100%;
+}
+
+@media (max-width: 63em) {
+    #img-caption {
+        font-size: 15px;
+    }
+}
+
+#tribute-link{
+    color: #6B4A24;
+   font-size:large;
+ text-align:right;
+ }
+#tribute-link:hover {
+    color: black;
+  }
+
+#img-tribute-info {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    display: list-item;
+}
